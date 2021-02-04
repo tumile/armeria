@@ -1,0 +1,8 @@
+type Project {
+    name: String
+    type: String
+}
+
+type Query {
+    project(name: String): Project
+}

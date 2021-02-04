@@ -10,6 +10,7 @@ includeWithFlags ':annotation-processor',                'java', 'publish', 'rel
 includeWithFlags ':brave',                               'java', 'publish', 'relocate'
 includeWithFlags ':core',                                'java', 'publish', 'shade', 'trim'
 includeWithFlags ':eureka',                              'java', 'publish', 'relocate'
+includeWithFlags ':graphql',                             'java', 'publish', 'relocate'
 includeWithFlags ':grpc',                                'java', 'publish', 'relocate'
 includeWithFlags ':grpc-protocol',                       'java', 'publish', 'relocate'
 includeWithFlags ':jetty9',                              'java', 'publish', 'relocate'
